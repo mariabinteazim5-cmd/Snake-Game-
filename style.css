@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+}
+.controls {
+  margin-top: 20px;
+}
+
+.controls button {
+  width: 60px;
+  height: 50px;
+  margin: 3px;
+  font-size: 20px;
+}
+
+#game {
+  width: min(90vw, 400px);
+  height: min(90vw, 400px);
+  aspect-ratio: 1/1;
+  border: 2px solid black;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.snake {
+  width: 10px;
+  height: 10px;
+  background: green;
+  position: absolute;
+}
+
+.food {
+  width: 10px;
+  height: 10px;
+  background: red;
+  position: absolute;
+}
